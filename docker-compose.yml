@@ -5,6 +5,8 @@ services:
     build: .
     environment:
       TZ: Asia/Tokyo
+      RAILS_LOG_TO_STDOUT: enabled
+      RAILS_SERVE_STATIC_FILES: enabled
     ports:
       - 3000:3000
     volumes:

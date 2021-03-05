@@ -34,4 +34,6 @@ RUN bin/rails assets:precompile
 
 EXPOSE 3000
 
+ENTRYPOINT [ "./scripts/entrypoint.sh" ]
+
 CMD ["bin/rails", "s", "-b", "0.0.0.0"]

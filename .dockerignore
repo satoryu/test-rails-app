@@ -1,0 +1,10 @@
+Dockerfile
+docker-compose.yml
+
+.git
+
+log/*
+tmp/*
+.bundle
+vendor/bundle
+node_modules
